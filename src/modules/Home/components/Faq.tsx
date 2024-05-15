@@ -16,7 +16,7 @@ const Faq = () => {
         {
           faq.map((item, index) => (
             <AccordionItem key={index} value={`${item.id}`}>
-              <AccordionTrigger className="text-md md:text-lg text-white w-full text-left">{item.question}</AccordionTrigger>
+              <AccordionTrigger className="text-sm md:text-lg text-white w-full text-left">{item.question}</AccordionTrigger>
               <AccordionContent className="text-white">
                 {item.answer}
               </AccordionContent>
