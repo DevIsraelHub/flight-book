@@ -28,8 +28,8 @@ export const navItems = [
     href: "#destination",
   },
   {
-    name: "Contact",
-    href: "#contact",
+    name: "FAQ",
+    href: "#faq",
   },
 ]
 
@@ -155,15 +155,15 @@ export const company = [
     href: "#"
   },
   {
+    name: "FAQ",
+    href: "#faq"
+  },
+  {
     name: "Pricing",
     href: "https://wa.me/447380308206"
   },
   {
     name: "Mission",
-    href: "#"
-  },
-  {
-    name: "Careers",
     href: "#"
   },
 ]

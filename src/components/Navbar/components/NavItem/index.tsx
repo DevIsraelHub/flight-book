@@ -15,7 +15,7 @@ const NavItem = ({ href, label, className }: NavItemProps) => {
   const pathname = usePathname();
 
   return (
-    <Link href={href} className={`py-3 hover:text-brandColor transition-colors ${pathname === href ? "text-brandColor font-bold" : "text-brandTextDull"} ${className}`}>
+    <Link href={href} className={`py-3 hover:text-brandColor transition-colors ${pathname.includes(href) ? "text-brandColor font-bold" : "text-brandTextDull"} ${className}`}>
       {label}
     </Link>
   )

@@ -7,7 +7,7 @@ import React from 'react'
 const About = () => {
   return (
     <Section classNames="mx-auto pb-20 pt-10">
-      <div className="w-full h-full flex items-center flex-col-reverse lg:flex-row justify-between">
+      <div className="w-full h-full flex items-center flex-col-reverse lg:flex-row justify-between gap-y-12">
         <div className="w-full lg:w-1/2">
           <Image
             width={500}
@@ -24,9 +24,27 @@ const About = () => {
               Unlock Your Dream Destination <span className="text-brandColorAlt">With Us</span>
             </h2>
           </header>
-          <p className="text-sm text-gray-500 my-4">
+          <p className="text-sm text-gray-500 my-6">
             At {siteName}, we are dedicated to providing efficient and reliable processing for Single Entry Applications with Insurance. Our team understands the importance of timely and accurate service, offering both standard processing in 4 business days and expedited processing in just 2 business days. We pride ourselves on delivering a seamless experience, ensuring your application is handled with care and professionalism. Trust {siteName} for quick, dependable, and comprehensive service tailored to meet your specific needs.
           </p>
+          <div className="grid grid-cols-2 gap-5">
+            <div className="text-center w-full h-[160px] rounded-2xl p-6 border flex items-center justify-center flex-col">
+              <h2 className="text-3xl text-brandColorAlt font-bold">24/7</h2>
+              <p className="text-sm">Customer Support</p>
+            </div>
+            <div className="text-center w-full h-[160px] rounded-2xl p-6 border flex items-center justify-center flex-col">
+              <h2 className="text-3xl text-brandColorAlt font-bold">100%</h2>
+              <p className="text-sm">Dedication</p>
+            </div>
+            <div className="text-center w-full h-[160px] rounded-2xl p-6 border flex items-center justify-center flex-col">
+              <h2 className="text-3xl text-brandColorAlt font-bold">100%</h2>
+              <p className="text-sm">Customer Satisfaction</p>
+            </div>
+            <div className="text-center w-full h-[160px] rounded-2xl p-6 border flex items-center justify-center flex-col">
+              <h2 className="text-3xl text-brandColorAlt font-bold">3000+</h2>
+              <p className="text-sm">Customers</p>
+            </div>
+          </div>
         </div>
       </div>
     </Section>

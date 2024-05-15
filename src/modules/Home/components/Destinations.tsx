@@ -73,6 +73,7 @@ const Destinations = () => {
           }
         </div>
       </div>
+      <span id="about"></span>
     </Section>
   )
 }
