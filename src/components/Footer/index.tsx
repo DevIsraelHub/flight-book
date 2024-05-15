@@ -66,8 +66,8 @@ function Footer() {
           </ul>
         </div>
       </div>
-      <div className="w-full flex flex-col justify-center items-center text-center p-5 border-t">
-        <div className="flex items-center justify-between w-full text-gray-800 text-sm">
+      <div className="w-full flex flex-col justify-center items-center text-center px-3 md:px-5 p-5 border-t">
+        <div className="flex items-center justify-between w-full text-gray-800 text-xs md:text-sm">
           <p>© 2024 All rights reserved</p>
           <span className="font-medium text-gray-500">
             Built by{" "}

@@ -106,44 +106,81 @@ export const socialLink = [
   // },
 ]
 
-export const reviewData = [
+export const faq = [
   {
-    avatar: "/reviews/avatar-1.png",
-    name: "Richard Thompson",
-    job: "Chef",
-    review: "Reviews Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, corporis voluptatem facere reprehenderit quidem et? Officia ab suscipit alias repudiandae.",
+    id: 1,
+    question: "How can I apply for a Dubai Application from another country?",
+    answer:
+      "You can apply for the Dubai Application online. On the other hand, a friend or relative of yours in the UAE can apply for a Application on your behalf.",
   },
   {
-    avatar: "/reviews/avatar-2.png",
-    name: "Evelyn Anderson",
-    job: "Interior Designer",
-    review: "Reviews Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, corporis voluptatem facere reprehenderit quidem et? Officia ab suscipit alias repudiandae.",
+    id: 2,
+    question: "Which countries are eligible for Application on arrival in Dubai?",
+    answer:
+      "Citizens of the following countries do not need to apply for a visa in advance; they are eligible for a visa on arrival: Some North American, European, and Far East countries, including the USA, UK, Portugal, Malaysia, Japan, Singapore, Hong Kong, Iceland, Germany, France, Belgium, Austria, and Australia.However, the list of visa- waiver countries may change, so always check with the local embassy or a reliable visa service provider before planning your trip to Dubai or the UAE.e",
   },
   {
-    avatar: "/reviews/avatar-3.png",
-    name: "Mike Andrew",
-    job: "developer",
-    review: "Reviews Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, corporis voluptatem facere reprehenderit quidem et? Officia ab suscipit alias repudiandae.",
+    id: 3,
+    question: "What are the different types of Application that I can apply for in the UAE?",
+    answer: "Different types of UAE Applications are available which include visit Application, tourist Application, transit Application, business Application, etc. You can apply for one of them according to the purpose and duration of your visit.",
   },
   {
-    avatar: "/reviews/avatar-4.png",
-    name: "Emeka Jeff",
-    job: "Gamer",
-    review: "Reviews Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, corporis voluptatem facere reprehenderit quidem et? Officia ab suscipit alias repudiandae.",
+    id: 4,
+    question: "Is it mandatory for me to obtain a Application to enter Dubai as well as UAE?",
+    answer:
+      "Dubai is a part of the United Arab Emirates (UAE) and with a UAE Application, you can visit all the seven Emirates of UAE. Citizens of all countries have to get a UAE Application, except for those belonging to GCC nations: Qatar, Saudi Arabia, Oman, Bahrain and Kuwait.",
   },
   {
-    avatar: "/reviews/avatar-5.png",
-    name: "Joel Benson",
-    job: "Seo Expert",
-    review: "Reviews Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, corporis voluptatem facere reprehenderit quidem et? Officia ab suscipit alias repudiandae.",
+    id: 5,
+    question: "What are the documents required to apply for electronic UAE Application?",
+    answer: "Scanned copy of your passport (with minimum 6 months validity) and passport-size coloured photos are the two main requirements for electronic UAE Application. Kindly check out our documents section to know all the details.",
   },
   {
-    avatar: "/reviews/avatar-6.png",
-    name: "Mary Jessica",
-    job: "Fashionist",
-    review: "Reviews Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, corporis voluptatem facere reprehenderit quidem et? Officia ab suscipit alias repudiandae.",
+    id: 6,
+    question: "Do children require Application to enter UAE?",
+    answer:
+      "Everyone, irrespective of age, has to get a UAE Application. Infants and kids of all non-UAE citizens have to get a UAE Application before flying to the country.",
   },
 ]
+
+// export const reviewData = [
+//   {
+//     avatar: "/reviews/avatar-1.png",
+//     name: "Richard Thompson",
+//     job: "Chef",
+//     review: "Reviews Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, corporis voluptatem facere reprehenderit quidem et? Officia ab suscipit alias repudiandae.",
+//   },
+//   {
+//     avatar: "/reviews/avatar-2.png",
+//     name: "Evelyn Anderson",
+//     job: "Interior Designer",
+//     review: "Reviews Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, corporis voluptatem facere reprehenderit quidem et? Officia ab suscipit alias repudiandae.",
+//   },
+//   {
+//     avatar: "/reviews/avatar-3.png",
+//     name: "Mike Andrew",
+//     job: "developer",
+//     review: "Reviews Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, corporis voluptatem facere reprehenderit quidem et? Officia ab suscipit alias repudiandae.",
+//   },
+//   {
+//     avatar: "/reviews/avatar-4.png",
+//     name: "Emeka Jeff",
+//     job: "Gamer",
+//     review: "Reviews Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, corporis voluptatem facere reprehenderit quidem et? Officia ab suscipit alias repudiandae.",
+//   },
+//   {
+//     avatar: "/reviews/avatar-5.png",
+//     name: "Joel Benson",
+//     job: "Seo Expert",
+//     review: "Reviews Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, corporis voluptatem facere reprehenderit quidem et? Officia ab suscipit alias repudiandae.",
+//   },
+//   {
+//     avatar: "/reviews/avatar-6.png",
+//     name: "Mary Jessica",
+//     job: "Fashionist",
+//     review: "Reviews Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, corporis voluptatem facere reprehenderit quidem et? Officia ab suscipit alias repudiandae.",
+//   },
+// ]
 
 export const company = [
   {
