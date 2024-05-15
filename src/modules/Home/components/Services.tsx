@@ -11,7 +11,7 @@ const Services = () => {
           <h1 className="capitalize text-3xl font-bold">
             Top Values <br className="hidden lg:block" /> For You
           </h1>
-          <p className="text-sm text-gray-500">Embrace life's vastness, venture forth.</p>
+          <p className="text-sm text-gray-500">Embrace life&apos;s vastness, venture forth.</p>
         </div>
         <div className="w-full lg:w-[60%] flex flex-col sm:flex-row gap-y-6 items-center justify-center sm:justify-between">
           <div className="flex flex-col items-center sm:items-start">
