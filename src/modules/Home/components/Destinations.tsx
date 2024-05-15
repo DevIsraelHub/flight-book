@@ -53,13 +53,13 @@ const Destinations = () => {
                   </li>
                 </ul>
                 <div className="w-full flex gap-x-3">
-                  <Button asChild variant="secondary" className="w-full gap-x-2">
+                  <Button asChild variant="secondary" className="w-full rounded-full py-6 gap-x-2">
                     <Link href={`mailto:${email}`}>
                       <CiMail className="h-5 w-5" />
                       Email
                     </Link>
                   </Button>
-                  <Button asChild className="w-full bg-brandColor gap-x-2 float-right">
+                  <Button asChild className="w-full rounded-full py-6 bg-brandColor gap-x-2 float-right">
                     <Link href={`https://wa.me/${phoneNumber}`}>
                       <BsWhatsapp />
                       Whatsapp
