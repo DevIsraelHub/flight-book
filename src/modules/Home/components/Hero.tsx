@@ -8,8 +8,8 @@ const Hero = () => {
   return (
     <main className="lg:overflow-hidden">
       <Section classNames="relative w-full h-full 2xl:max-h-[800px] pt-[120px] lg:pt-[160px] mx-auto">
-        <div className="w-full h-full flex flex-col space-y-10 items-center justify-center">
-          <article className="w-full text-center">
+        <div className="w-full h-full flex flex-col lg:flex-row space-y-10 items-center justify-between">
+          <article className="w-full lg:w-[50%]">
             <h1 className="text-[40px] lg:text-[60px] font-[700] text-bold capitalize z-20 text-brandText lg:w-[90%]">
               Ready for <span className="text-brandColorAlt">Dubai?</span> <span className="text-brandColorAlt">Apply online</span>, approval in 24* hours
             </h1>
