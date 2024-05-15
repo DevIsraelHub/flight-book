@@ -20,7 +20,7 @@ const About = () => {
         <div className="w-full lg:w-[45%]">
           <header>
             <h3 className="uppercase text-brandColorAlt font-semibold">About Us</h3>
-            <h2 className="text-5xl capitalize leading-loosed my-2 font-bold">
+            <h2 className="text-3xl lg:text-5xl capitalize leading-loosed my-2 font-bold">
               Unlock Your Dream Destination <span className="text-brandColorAlt">With Us</span>
             </h2>
           </header>
