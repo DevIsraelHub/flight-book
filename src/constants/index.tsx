@@ -4,7 +4,7 @@ import { Blocks, Calendar, Facebook, GanttChartSquare, Gem, GraduationCap, HomeI
 // export const siteAbbreviation = "RGB"
 export const siteName = "Flight Book"
 export const phoneNumber = "447380308206"
-export const email = "contact@rgbinternentradio.com"
+export const email = "israelejeh08@gmail.com"
 export const address = "757 Broadway Everett, MA 02149"
 export const adNumber = "866-742-4249"
 
