@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={fontFamily.className}>
-        <NextTopLoader color="#CD4631" showSpinner={false} />
+        <NextTopLoader color="#5D50C6" showSpinner={false} />
         {children}
       </body>
     </html>
