@@ -11,7 +11,7 @@ const Services = () => {
           <h1 className="capitalize text-3xl font-bold">
             Top Values <br className="hidden lg:block" /> For You
           </h1>
-          <p className="text-sm text-gray-500">Embrace life&apos;s vastness, venture forth.</p>
+          <p className="text-sm text-brandTextDull">Embrace life&apos;s vastness, venture forth.</p>
         </div>
         <div className="w-full lg:w-[60%] flex flex-col sm:flex-row gap-y-6 items-center justify-center sm:justify-between">
           <div className="flex flex-col items-center sm:items-start">
@@ -25,7 +25,7 @@ const Services = () => {
             <h2 className="font-semibold text-lg py-2">
               Lot of choices
             </h2>
-            <p className="text-xs text-gray-500 sm:max-w-[150px] text-center sm:text-left">Explore different choices at your fingertip.</p>
+            <p className="text-xs text-brandTextDull sm:max-w-[150px] text-center sm:text-left">Explore different choices at your fingertip.</p>
           </div>
           <div className="flex flex-col items-center sm:items-start">
             <Image
@@ -38,7 +38,7 @@ const Services = () => {
             <h2 className="font-semibold text-lg py-2">
               Best Tour Guide
             </h2>
-            <p className="text-xs text-gray-500 sm:max-w-[150px] text-center sm:text-left">Explore the best tour guide with us</p>
+            <p className="text-xs text-brandTextDull sm:max-w-[150px] text-center sm:text-left">Explore the best tour guide with us</p>
           </div>
           <div className="flex flex-col items-center sm:items-start">
             <Image
@@ -51,7 +51,7 @@ const Services = () => {
             <h2 className="font-semibold text-lg py-2">
               Easy Booking
             </h2>
-            <p className="text-xs text-gray-500 sm:max-w-[150px] text-center sm:text-left">Easy booking wihin 24 hours.</p>
+            <p className="text-xs text-brandTextDull sm:max-w-[150px] text-center sm:text-left">Easy booking wihin 24 hours.</p>
           </div>
         </div>
       </div>

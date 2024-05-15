@@ -6,8 +6,14 @@
     :root {
      --brandColor: #5D50C6;
      --brandColorAlt: #F85E9F;
-     --brandBg: #EEEEEE;
+     --brandBg: #fff;
      --brandWhite: #fff;
+     --brandText: #1E1E1E;
+      --brandTextDull: #646469;
+      --brandInput: #F3F7FE;
+      --brandInputStroke: #D4DCF1;
+      --brandCard: #fdfeff;
+      --brandIcon: #0D2159;
 
       --background: 0 0% 100%;
       --foreground: 0 0% 3.9%;
@@ -40,9 +46,16 @@
       --radius: 0.5rem;
     }
 
-    /* .dark {
-      --brandColor: #CD4631;
-      --brandBg: #F7EDE8;
+    .dark {
+      --brandColor: #5D50C6;
+      --brandColorAlt: #F85E9F;
+      --brandBg: #171717;
+      --brandText: #FBFAFC;
+      --brandTextDull: #999999;
+      --brandInput: #242428;
+      --brandInputStroke: #D4DCF1;
+      --brandCard: #212122;
+      --brandIcon: #BACAF5;
       
       --background: 0 0% 3.9%;
       --foreground: 0 0% 98%;
@@ -71,7 +84,7 @@
       --border: 0 0% 14.9%;
       --input: 0 0% 14.9%;
       --ring: 0 0% 83.1%;
-    } */
+    }
   }
 
   @layer base {

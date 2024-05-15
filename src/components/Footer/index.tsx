@@ -16,7 +16,7 @@ function Footer() {
           <ul>
             <div className="max-w-[300px] space-y-3">
               <Logo />
-              <p className="text-gray-500 text-sm pb-6">
+              <p className="text-brandTextDull text-sm pb-6">
                 Apply online, get approved in 24* hours. Your Dubai adventure starts now
               </p>
             </div>
@@ -30,10 +30,10 @@ function Footer() {
         </div>
         <div className="p-5">
           <ul>
-            <p className="text-gray-800 font-bold text-xl pb-6">Company</p>
+            <p className="text-brandText font-bold text-xl pb-6">Company</p>
             {
               company.map((item, index) => (
-                <li className="text-gray-500 text-sm pb-4 hover:text-brandColor cursor-pointer" key={index}>
+                <li className="text-brandTextDull text-sm pb-4 hover:text-brandColor cursor-pointer" key={index}>
                   <Link href={item.href}>{item.name}</Link>
                 </li>
               ))
@@ -42,10 +42,10 @@ function Footer() {
         </div>
         <div className="p-5">
           <ul>
-            <p className="text-gray-800 font-bold text-xl pb-6">Support</p>
+            <p className="text-brandText font-bold text-xl pb-6">Support</p>
             {
               support.map((item, index) => (
-                <li className="text-gray-500 text-sm pb-4 hover:text-brandColor cursor-pointer" key={index}>
+                <li className="text-brandTextDull text-sm pb-4 hover:text-brandColor cursor-pointer" key={index}>
                   <Link href={item.href}>{item.name}</Link>
                 </li>
               ))
@@ -54,10 +54,10 @@ function Footer() {
         </div>
         <div className="p-5">
           <ul>
-            <p className="text-gray-800 font-bold text-xl pb-6">Contact Us</p>
+            <p className="text-brandText font-bold text-xl pb-6">Contact Us</p>
             {
               contact.map((item, index) => (
-                <li className="flex items-center gap-x-3 text-gray-500 text-sm pb-4 hover:text-brandColor cursor-pointer" key={index}>
+                <li className="flex items-center gap-x-3 text-brandTextDull text-sm pb-4 hover:text-brandColor cursor-pointer" key={index}>
                   {item.icon}
                   <p>{item.name}</p>
                 </li>
@@ -67,9 +67,9 @@ function Footer() {
         </div>
       </div>
       <div className="w-full flex flex-col justify-center items-center text-center px-3 md:px-5 p-5 border-t">
-        <div className="flex items-center justify-between w-full text-gray-800 text-xs md:text-sm">
+        <div className="flex items-center justify-between w-full text-brandText text-xs md:text-sm">
           <p>© 2024 All rights reserved</p>
-          <span className="font-medium text-gray-500">
+          <span className="font-medium text-brandTextDull">
             Built by{" "}
             <Link className="text-brandColor" target="_blank" href="https://ejeh.vercel.app">Ejeh Israel</Link>{" "}
           </span>

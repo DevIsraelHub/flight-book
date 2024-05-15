@@ -47,10 +47,10 @@ const Destinations = () => {
                   <p className="text-lg pb-2 font-bold leading-6">
                     {item.title}
                   </p>
-                  <li className="text-sm pb-1">
+                  <li className="text-sm text-brandTextDull pb-1">
                     {item.listOne}
                   </li>
-                  <li className="text-sm">
+                  <li className="text-sm text-brandTextDull">
                     {item.listTwo}
                   </li>
                 </ul>
@@ -61,7 +61,7 @@ const Destinations = () => {
                       Email
                     </Link>
                   </Button>
-                  <Button asChild className="w-full rounded-full py-6 bg-brandColor gap-x-2 float-right shadow-xl  shadow-[#5D50C6]/40">
+                  <Button asChild className="w-full rounded-full text-white py-6 bg-brandColor gap-x-2 float-right shadow-xl shadow-[#5D50C6]/40 dark:shadow-[#5D50C6]/10">
                     <Link href={`https://wa.me/${phoneNumber}`}>
                       <BsWhatsapp />
                       Whatsapp

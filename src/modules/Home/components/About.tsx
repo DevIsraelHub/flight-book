@@ -24,25 +24,25 @@ const About = () => {
               Unlock Your Dream Destination <span className="text-brandColorAlt">With Us</span>
             </h2>
           </header>
-          <p className="text-sm text-gray-500 my-6">
+          <p className="text-sm text-brandTextDull my-6">
             At {siteName}, we are dedicated to providing efficient and reliable processing for Single Entry Applications with Insurance. Our team understands the importance of timely and accurate service, offering both standard processing in 4 business days and expedited processing in just 2 business days. We pride ourselves on delivering a seamless experience, ensuring your application is handled with care and professionalism. Trust {siteName} for quick, dependable, and comprehensive service tailored to meet your specific needs.
           </p>
           <div className="grid grid-cols-2 gap-5">
             <div className="text-center w-full h-[160px] rounded-2xl p-6 border flex items-center justify-center flex-col">
               <h2 className="text-3xl text-brandColorAlt font-bold">24/7</h2>
-              <p className="text-sm">Customer Support</p>
+              <p className="text-sm text-brandText">Customer Support</p>
             </div>
             <div className="text-center w-full h-[160px] rounded-2xl p-6 border flex items-center justify-center flex-col">
               <h2 className="text-3xl text-brandColorAlt font-bold">100%</h2>
-              <p className="text-sm">Dedication</p>
+              <p className="text-sm text-brandText">Dedication</p>
             </div>
             <div className="text-center w-full h-[160px] rounded-2xl p-6 border flex items-center justify-center flex-col">
               <h2 className="text-3xl text-brandColorAlt font-bold">100%</h2>
-              <p className="text-sm">Customer Satisfaction</p>
+              <p className="text-sm text-brandText">Customer Satisfaction</p>
             </div>
             <div className="text-center w-full h-[160px] rounded-2xl p-6 border flex items-center justify-center flex-col">
               <h2 className="text-3xl text-brandColorAlt font-bold">3000+</h2>
-              <p className="text-sm">Customers</p>
+              <p className="text-sm text-brandText">Customers</p>
             </div>
           </div>
         </div>

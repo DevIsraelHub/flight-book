@@ -12,7 +12,7 @@ const LearnMore = () => {
             <h2 className="text-2xl lg:text-3xl capitalize leading-loosed my-2 font-bold">
               Required Documents for Application
             </h2>
-            <div>
+            <div className="text-brandText">
               <p className="font-bold my-3">Visitor&apos;s Documents:</p>
               <p className="text-sm">Please provide the following scanned documents with your application:</p>
               <ul className="text-sm my-3 list-decimal ml-7 space-y-3">
@@ -27,7 +27,7 @@ const LearnMore = () => {
                 For visa applications in Abu Dhabi or Sharjah, an additional fee of 170 AED applies for the 30-day visa and 190 AED for the 60-day visa.
               </p>
             </div>
-            <div className="mt-8">
+            <div className="mt-8 text-brandText">
               <p className="font-bold my-3">Sponsor&apos;s or Referee&apos;s Documents:</p>
               <p className="text-sm">If you have a guarantor in the UAE, please submit the following documents:</p>
               <ul className="text-sm my-3 list-decimal ml-7 space-y-3">
