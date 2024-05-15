@@ -26,7 +26,7 @@ export default function RootLayout({
         <NextTopLoader color="#5D50C6" showSpinner={false} />
         <ThemeProvider
           attribute="class"
-          defaultTheme="dark"
+          defaultTheme="light"
         >
           {children}
         </ThemeProvider>
