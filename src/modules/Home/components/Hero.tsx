@@ -7,11 +7,11 @@ import { MapPin, RadioTower, Zap } from "lucide-react";
 const Hero = () => {
   return (
     <main className="lg:overflow-hidden">
-      <Section classNames="relative w-full h-screen 2xl:max-h-[800px] py-[120px] lg:pt-[100px] mx-auto">
+      <Section classNames="relative w-full h-screen 2xl:max-h-[800px] py-[120px] lg:pt-[150px] mx-auto">
         <div className="w-full h-full flex flex-col space-y-10 lg:flex-row items-center justify-between">
           <article className="w-full lg:w-[52%]">
             <h1 className="text-left text-[40px] lg:text-[60px] font-[700] text-bold capitalize z-20">
-              Ready for <span className="text-brandColorAlt">Dubai?</span> <span className="text-brandColorAlt">Apply online</span>, approval in 24* hours
+              Ready for <span className="text-brandColorAlt">Dubai</span>? Apply online, approval in 24* hours
             </h1>
           </article>
           <div className="relative w-full max-w-[500px] mx-auto lg:w-[45%] lg:ml-auto">

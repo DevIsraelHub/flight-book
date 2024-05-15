@@ -29,7 +29,7 @@ const Navbar = () => {
             ))
           }
         </ul>
-        <Button asChild className={`space-x-2 rounded-full bg-brandColor px-5 py-6 sm:px-6 sm:p-6 ${!isActive && "shadow-xl"} shadow-[#5D50C6]/50`}>
+        <Button asChild className={`space-x-2 rounded-full bg-gradient-to-r from-brandColor from-15% to-brandColorAlt px-5 py-6 sm:px-6 sm:p-6 ${!isActive && "shadow-xl"} shadow-[#5D50C6]/40`}>
           <Link target="_blank" href={`https://wa.me/${phoneNumber}`}>
             <BsWhatsapp className="w-6 h-6" />
             <p>Chat with Us</p>
