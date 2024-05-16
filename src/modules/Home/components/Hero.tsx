@@ -27,7 +27,7 @@ const Hero = () => {
               <div className="absolute top-[30%] -right-2 flex items-start border border-accent gap-x-2 bg-brandBg dark:border-none whitespace-nowrap p-3 px-5 rounded-xl shadow-xl z-20">
                 <RadioTower className="text-yellow-500 mt-1 w-5 h-5" />
                 <div>
-                  <p className="text-brandColor text-xl font-semibold">3000 +</p>
+                  <p className="text-brandColor text-md sm:text-xl font-semibold">3000 +</p>
                   <p className="text-[12px]">Customers</p>
                 </div>
               </div>
