@@ -6,7 +6,7 @@ const LearnMore = () => {
   return (
     <Section classNames="mx-auto pb-20">
       <div className="pt-10 flex flex-col lg:flex-row items-start justify-between">
-        <div className="w-full lg:w-[60%]">
+        <div className="w-full lg:w-[60%] p-6 rounded-3xl">
           <header>
             <h3 className="uppercase text-brandColorAlt font-semibold">Learn More</h3>
             <h2 className="text-2xl lg:text-3xl capitalize leading-loosed my-2 font-bold">

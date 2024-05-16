@@ -14,7 +14,7 @@ const Services = () => {
           <p className="text-sm text-brandTextDull">Embrace life&apos;s vastness, venture forth.</p>
         </div>
         <div className="w-full lg:w-[60%] flex flex-col sm:flex-row gap-y-6 items-center justify-center sm:justify-between">
-          <div className="flex flex-col items-center sm:items-start">
+          <div className="flex flex-col items-center sm:items-start bg-brandBg max-h-[200px] p-6 rounded-3xl">
             <Image
               src="/home/services/travel.svg"
               width={150}
@@ -27,7 +27,7 @@ const Services = () => {
             </h2>
             <p className="text-xs text-brandTextDull sm:max-w-[150px] text-center sm:text-left">Explore different choices at your fingertip.</p>
           </div>
-          <div className="flex flex-col items-center sm:items-start">
+          <div className="flex flex-col items-center sm:items-start bg-brandBg max-h-[200px] p-6 rounded-3xl">
             <Image
               src="/home/services/yellow-paper.svg"
               width={150}
@@ -40,7 +40,7 @@ const Services = () => {
             </h2>
             <p className="text-xs text-brandTextDull sm:max-w-[150px] text-center sm:text-left">Explore the best tour guide with us</p>
           </div>
-          <div className="flex flex-col items-center sm:items-start">
+          <div className="flex flex-col items-center sm:items-start bg-brandBg max-h-[200px] p-6 rounded-3xl">
             <Image
               src="/home/services/card.svg"
               width={150}

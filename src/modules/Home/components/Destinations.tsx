@@ -20,10 +20,10 @@ const Destinations = () => {
         </h1>
 
         {/* Card Destinations */}
-        <div className="grid md:grid-cols-2 gap-10 gap-y-14 lg:grid-cols-3 mt-10">
+        <div className="grid md:grid-cols-2 gap-5 gap-y-14 lg:grid-cols-3 mt-10">
           {
             destinations.map((item, index) => (
-              <div key={index}>
+              <div key={index} className="bg-brandBg p-4 rounded-3xl">
                 <Link href={`https://wa.me/${phoneNumber}`}>
                   <div className="relative group rounded-3xl bg-gray-300 w-full h-[270px] overflow-hidden cursor-pointer">
                     <Image
